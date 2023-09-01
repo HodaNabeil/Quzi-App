@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    font-family: Tahoma, Arial;
+}
+.quiz-app {
+    margin: 20px auto;
+    width: 800px;
+    background-color: #f8f8f8;
+    padding: 15px;
+}
+.quiz-info {
+    background-color: #fff;
+    display: flex;
+    padding: 20px;
+}
+.category {
+    text-align: left;
+    flex: 1;
+}
+.quiz-info .count {
+    text-align: right;
+    flex: 1;
+}
+.quiz-area {
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 10px;
+}
+h2 {
+    margin: 0;
+}
+.answers-area {
+    background-color: #ffff;
+    padding: 20px;
+}
+.answer {
+    padding: 10px;
+    font-size: 18px;
+}
+input {
+    cursor: pointer;
+}
+.answer input:checked + label {
+    color: #0075ff;
+}
+.answer label {
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.submit-button {
+    cursor: pointer;
+    display: block;
+    border: none;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    background-color: #0075ff;
+    color: #fff;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.bullets {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+}
+.bullets .spans {
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+}
+.bullets .spans span {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin-left: 15px;
+    border-radius: 50%;
+    background-color: #ddd;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.bullets .spans span.on {
+    background-color: #0075ff;
+}
+.countdown {
+    text-align: right;
+    margin-top: 15px;
+    flex: 1;
+}
+.results {
+    background-color: #f8f8f8;
+    padding: 20px;
+    font-size: 18px;
+}
+.results span {
+    font-weight: bold;
+}
+.results span {
+    font-weight: bold;
+}
+span.bad {
+    color: #dc0a0a;
+}
+span.good {
+    color: #009688;
+}
+span.perfect {
+    color: #0075ff;
+}
